@@ -19,34 +19,27 @@ class _PerguntaAppState extends State<PerguntaApp> {
 
   final _perguntas = const [
     {
-      'texto': 'Qual a cor mais linda ?',
+      'texto': 'O que Dart ?',
       'respostas': [
-        {'texto': 'Branco', 'pontuacao': 2},
-        {'texto': 'Preto', 'pontuacao': 3},
-        {'texto': 'Azul', 'pontuacao': 10},
-        {'texto': 'Vermelho', 'pontuacao': 5},
-        {'texto': 'Amarelo', 'pontuacao': 5},
-        {'texto': 'Verde', 'pontuacao': 5},
-        {'texto': 'Laranja', 'pontuacao': 5},
+        {'texto': 'Um carro da Marca Dodge', 'pontuacao': 0},
+        {'texto': 'Linguagem de POO', 'pontuacao': 1},
+        {'texto': 'Um jogo', 'pontuacao': 0},
       ],
     },
     {
-      'texto': 'Qual a comida mais saborosa ?',
+      'texto': 'Para que serve um Widget ?',
       'respostas': [
-        {'texto': 'Lasanha', 'pontuacao': 1},
-        {'texto': 'Pizza ', 'pontuacao': 1},
-        {'texto': 'Iogurte', 'pontuacao': 1},
-        {'texto': 'Bala fini', 'pontuacao': 5},
+        {'texto': 'Quebrar códigos em pedaços reutilizáveis', 'pontuacao': 1},
+        {'texto': 'Aumentar o Código', 'pontuacao': 0},
+        {'texto': 'Melhorar o desempenho do aplicativo', 'pontuacao': 0},
       ],
     },
     {
-      'texto': 'Melhor feriado ?',
+      'texto': 'O que é flutter ?',
       'respostas': [
-        {'texto': 'Natal', 'pontuacao': 5},
-        {'texto': 'Dia das crianças', 'pontuacao': 5},
-        {'texto': 'Dia dos pais', 'pontuacao': 15},
-        {'texto': 'Dia dos mães', 'pontuacao': 15},
-        {'texto': 'Páscoa', 'pontuacao': 5},
+        {'texto': 'Biblioteca para desenvolvimento web', 'pontuacao': 0},
+        {'texto': 'Framework mobile', 'pontuacao': 1},
+        {'texto': 'Arquivo de estilos', 'pontuacao': 0},
       ],
     }
   ];

@@ -7,16 +7,12 @@ class Resultado extends StatelessWidget {
   Resultado(this.pontuacao, this.quandoReiniciarQuestionario);
 
   String get fraseResultado {
-    if (pontuacao < 8) {
-      return 'Como assim ?';
-    } else if (pontuacao < 12) {
-      return 'Poderia ser pior...';
-    } else if (pontuacao < 15) {
-      return 'Poderia ser melhor...';
-    } else if (pontuacao < 20) {
-      return 'Quase no toperson...';
+    if (pontuacao < 1) {
+      return 'Estude mais.';
+    } else if (pontuacao <= 2) {
+      return 'Na média.';
     } else {
-      return 'Também te amo !';
+      return 'Nota máxima.';
     }
   }
 
